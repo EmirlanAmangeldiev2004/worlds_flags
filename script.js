@@ -38,3 +38,4 @@ btnSearch.addEventListener('click',()=>{
 // search.addEventListener('input',(e)=>{
 //    getAPI(`name/${e.target.value}`)
 // }) 
+
