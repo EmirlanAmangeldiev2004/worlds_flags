@@ -35,7 +35,12 @@ function render(data){
 }
 
 btnSearch.addEventListener('click',()=>{
+   if (!search.value.trim()) {
+      alert("Заполните поле");
+      return;
+    }
    getAPI(`name/${search.value}`)
+   search.value = ''
 })
 
 select1.addEventListener('change', (e)=>{
