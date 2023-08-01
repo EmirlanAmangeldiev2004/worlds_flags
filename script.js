@@ -95,7 +95,6 @@ select2.addEventListener('change',(e)=>{
       render(res)
    }
 })
-
 // search.addEventListener('input',(e)=>{
 //    getAPI(`name/${e.target.value}`)
 // }) 
