@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Borel&family=Lumanosimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki&display=swap');
 
 *{
    margin: 0;
@@ -75,4 +76,19 @@ body{
    font-size: 24px;
    color: #fff;
    font-family: 'Borel';
+}
+
+.select-1, .select-2{
+   border: none;
+   background-color: #bd8600;
+   color: #4a3200;
+   font-family: 'Noto+Serif+Khojki';
+   font-size: 17px;
+   border-radius: 5px;
+}
+
+
+option:checked{
+   background-color: #7c580a;
+   color: #fff;
 }
