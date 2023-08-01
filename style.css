@@ -79,6 +79,7 @@ body{
 }
 
 .select-1, .select-2{
+   width: 10%;
    border: none;
    background-color: #bd8600;
    color: #4a3200;
